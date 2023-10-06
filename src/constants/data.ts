@@ -6,3 +6,11 @@ export const navigation = [
   { title: "Resume", href: "/resume" },
   { title: "Contact", href: "/contact" },
 ];
+export const services = [
+  { title: "Web Design" },
+  { title: "Web Development" },
+  { title: "MERN Stack Development" },
+  { title: "Creating Article" },
+  { title: "UI Design" },
+  { title: "E-commerce project" },
+];
