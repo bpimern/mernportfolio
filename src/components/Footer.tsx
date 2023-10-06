@@ -31,7 +31,10 @@ export default function Footer() {
         </ul>
         <ul className="flex flex-col items-start text-sm uppercase gap-5 font-semibold">
           {services.map((item) => (
-            <li className="hover:text-white cursor-pointer duration-300 relative group overflow-hidden">
+            <li
+              key={item.title}
+              className="hover:text-white cursor-pointer duration-300 relative group overflow-hidden"
+            >
               {item.title}
               <span className="h-[1px] w-full bg-white inline-flex absolute left-0 bottom-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300" />
             </li>

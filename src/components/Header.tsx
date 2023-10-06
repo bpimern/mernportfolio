@@ -32,7 +32,7 @@ const Header = () => {
           {show ? <X /> : <Menu />}
         </div>
         {show && (
-          <ul className="absolute right-0 px-10 py-6 top-20 z-10 flex flex-col bg-black items-start text-sm uppercase gap-5 font-semibold text-zinc-200">
+          <ul className="absolute right-0 px-10 py-6 top-20 z-10  inline-flex md:hidden flex-col bg-black items-start text-sm uppercase gap-5 font-semibold text-zinc-200">
             {navigation.map((item) => (
               <Link key={item.title} href={item.href}>
                 <li className="hover:text-white cursor-pointer duration-300 relative group overflow-hidden">
