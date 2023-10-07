@@ -7,7 +7,7 @@ import { Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
-    <div className="bg-zinc-700 text-zinc-200">
+    <div className="bg-zinc-700 text-zinc-200 mt-10">
       <Container className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 xl:place-items-center">
         <div>
           <Link href={"/"}>
