@@ -1,5 +1,6 @@
 import AboutMe from "@/components/AboutMe";
 import Banner from "@/components/Banner";
+import MyExperience from "@/components/MyExperience";
 import MyServices from "@/components/MyServices";
 
 const getData = async () => {
@@ -18,6 +19,7 @@ export default async function Home() {
       <Banner />
       <AboutMe />
       <MyServices />
+      <MyExperience />
     </main>
   );
 }
