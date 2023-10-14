@@ -1,5 +1,5 @@
 import { Component, Webhook } from "lucide-react";
-import testImg from "../assets/banner.png";
+import { xyzImg, shikkha, brainStation } from "@/assets/images";
 export const navigation = [
   { title: "Home", href: "/" },
   { title: "Services", href: "/services" },
@@ -57,39 +57,51 @@ export const servicesDetails = [
 ];
 export const experiences = [
   {
-    title: "Web Design",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "Web Developer",
+    company: "XYZ.com",
+    position: "Intern",
+    duration: "January 2022 - June 2022",
+    logo: xyzImg,
+    href: "https://www.peoplentech.com.bd/",
   },
   {
-    title: "Web Development",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "React Developer",
+    company: "Brain Station",
+    position: "Intern",
+    duration: "July 2022 - December 2022",
+    logo: brainStation,
+    href: "https://www.peoplentech.com.bd/",
   },
   {
-    title: "Mern Stack Development",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "Frontend Developer",
+    company: "shikkha.com",
+    position: "Intern",
+    duration: "January 2023 - March 2023",
+    logo: shikkha,
+    href: "https://www.peoplentech.com.bd/",
   },
   {
-    title: "Creating Articles",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "Web Developer",
+    company: "XYZ.com",
+    position: "Intern",
+    duration: "January 2022 - June 2022",
+    logo: xyzImg,
+    href: "https://www.peoplentech.com.bd/",
   },
   {
-    title: "UI Design",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "React Developer",
+    company: "Brain Station",
+    position: "Intern",
+    duration: "July 2022 - December 2022",
+    logo: brainStation,
+    href: "https://www.peoplentech.com.bd/",
   },
   {
-    title: "E-commerce Project",
-    description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid odio sequi soluta? Laboriosam ducimus quidem aut eius saepe. Eaque earum impedit ullam quibusdam reiciendis itaque minima ipsum. Animi vitae quae.",
-    img: testImg,
+    title: "Frontend Developer",
+    company: "shikkha.com",
+    position: "Intern",
+    duration: "January 2023 - March 2023",
+    logo: shikkha,
+    href: "https://www.peoplentech.com.bd/",
   },
 ];

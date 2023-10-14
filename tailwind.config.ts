@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        designColor: "#f78da7",
+        designColor: "#ffd60a",
+        darkText: "#000814",
+        lightText: "#fdfffc",
       },
     },
   },

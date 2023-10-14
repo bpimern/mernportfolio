@@ -1,15 +1,41 @@
+"use client";
 import Image from "next/image";
 import BannerImg from "../assets/banner.png";
 import Container from "./Container";
+import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
+  const typing = [
+    "Mern Stack Developer",
+    "Web Developer",
+    "Web Designer",
+    "Content Writer",
+  ];
   return (
     <section id="#banner">
-      <Container>
+      <Container className="min-h-screen">
         <div className="flex items-center flex-col sm:flex-row">
           <div className="w-full sm:w-1/2 flex flex-col gap-2">
-            <h2 className="text-2xl font-semibold">BPI Mern</h2>
-            <p className="text-lg font-medium">MERN Stack Developer</p>
+            <h2 className="text-2xl font-semibold">Your name</h2>
+            {/* Typewriter start here */}
+
+            <div className="flex items-center gap-1 text-lg font-semibold">
+              <p>I am a</p>
+              <p className="text-blue-600">
+                <Typewriter
+                  words={typing}
+                  loop={5}
+                  cursor
+                  cursorStyle="|"
+                  cursorColor="red"
+                  typeSpeed={100}
+                  deleteSpeed={100}
+                  delaySpeed={2000}
+                  cursorBlinking
+                />
+              </p>
+            </div>
+            {/* Typewriter end here */}
             <p className="text-base tracking-wide">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo, ex nobis impedit quibusdam similique est beatae

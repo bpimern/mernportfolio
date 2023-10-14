@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .textStyle {
+    @apply tracking-wide mt-4 text-lg px-10 py-2 text-gray-100 font-normal;
+  }
+}
